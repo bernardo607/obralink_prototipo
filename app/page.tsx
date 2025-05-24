@@ -7,7 +7,16 @@ export default function LandingPage() {
     <main className="min-h-screen bg-[#F5F5F5] text-[#2B2B2B] font-sans">
       <header className="bg-[#1A3D7C] text-white py-10 px-6">
         <div className="max-w-6xl mx-auto flex flex-col items-center text-center">
-          <Image src="/logo-obralink.png" alt="ObraLink logo" width={120} height={120} className="mb-4" />
+          {typeof window !== "undefined" && (
+  <img
+    src="/logo-obralink.png"
+    alt="ObraLink logo"
+    width={120}
+    height={120}
+    className="mb-4"
+  />
+)}
+
           <h1 className="text-5xl font-extrabold">ObraLink</h1>
           <p className="text-xl mt-4 max-w-2xl">
             La plataforma digital que transforma la gestión de obras para arquitectos, contratistas y profesionales del sector.
