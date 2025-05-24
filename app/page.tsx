@@ -9,7 +9,7 @@ export default function Home() {
       <header className="bg-[#1A3D7C] text-white py-10 px-6">
         <div className="max-w-6xl mx-auto flex flex-col items-center text-center">
           <Image
-            src="/static/logo-obralink.png"
+            src="/logo-obralink.png"
             alt="ObraLink logo"
             width={120}
             height={120}
